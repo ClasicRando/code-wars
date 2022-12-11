@@ -3,8 +3,9 @@
 mod bit_counting;
 mod bouncing_balls;
 mod decode_morse_code;
+mod vowel_count;
 
 fn main() {
-    let result = decode_morse_code::decode_morse2(".... . -.--   .--- ..- -.. .");
+    let result = vowel_count::get_count("abracadabra");
     println!("Result: {}", result);
 }

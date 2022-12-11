@@ -3,10 +3,11 @@
 mod bit_counting;
 mod bouncing_balls;
 mod decode_morse_code;
+mod move_zeros_to_the_end;
 mod vowel_count;
 mod your_order_please;
 
 fn main() {
-    let result = your_order_please::order2("4of Fo1r pe6ople g3ood th5e the2");
-    println!("Result: {}", result);
+    let result = move_zeros_to_the_end::move_zeros(&[1, 2, 0, 1, 0, 1, 0, 3, 0, 1]);
+    println!("Result: {:?}", result);
 }

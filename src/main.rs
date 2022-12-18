@@ -8,11 +8,9 @@ mod vowel_count;
 mod your_order_please;
 mod rgb_to_hex_conversion;
 mod help_the_bookseller;
+mod perimeter_of_squares_in_a_rectangle;
 
 fn main() {
-    let result = help_the_bookseller::stock_list(
-        vec![],
-        vec!["B", "R", "D", "X"],
-    );
+    let result = perimeter_of_squares_in_a_rectangle::perimeter2(30);
     println!("Result: {:?}", result);
 }
